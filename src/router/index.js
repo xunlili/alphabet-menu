@@ -1,6 +1,6 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
-import dropMenu from '../views/dropMenu.vue'
+const dropMenu = import('../views/dropMenu.vue')
 
 Vue.use(VueRouter)
 
