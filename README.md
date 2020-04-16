@@ -10,8 +10,8 @@
 import 'alphabet-menu/dist/alphabet-menu.css'
 ```
 
-###在main.js中引入全局组件和注册组件
-######也可以在组件中局部引入组件，这里就不详细介绍了
+### 在main.js中引入全局组件和注册组件
+###### 也可以在组件中局部引入组件，这里就不详细介绍了
 ```
  import { dropMenu } from 'alphabet-menu'
  
@@ -26,7 +26,7 @@ import 'alphabet-menu/dist/alphabet-menu.css'
         @choosedCity="choosedCity"
       />
 ```
-###说明
+### 说明
 ```
 cities  // Object 所有的城市数据
 hotCities  // Array  热门城市
