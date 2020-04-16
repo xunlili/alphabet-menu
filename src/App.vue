@@ -154,9 +154,6 @@ export default {
   color: #2c3e50;
 }
 
-#nav {
-}
-
 #nav a {
   font-weight: bold;
   color: #2c3e50;
