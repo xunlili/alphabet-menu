@@ -2,7 +2,8 @@
   <div id="app">
     <div id="nav">
       <!-- <router-view/> -->
-      <dropMenu :cities="cities" 
+      <dropMenu 
+        :cities="cities" 
         :hotCities="hotCities"
         @choosedCity="choosedCity"
       />
@@ -154,7 +155,6 @@ export default {
 }
 
 #nav {
-  // position: relative;
 }
 
 #nav a {
